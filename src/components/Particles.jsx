@@ -36,7 +36,7 @@ const Particle = ({ theme }) => {
                 },
                 onHover: {
                     enable: true,
-                    mode: theme == 'dark' ? "grab" : "bubble",
+                    mode: theme === 'dark' ? "grab" : "bubble",
                 },
             },
             modes: {

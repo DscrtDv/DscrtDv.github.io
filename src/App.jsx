@@ -85,7 +85,7 @@ function App() {
 
                     <Portfolio />
                     <Timeline />
-                    <Contact />
+                    <Contact theme={theme} />
                     <Footer />
 
                 </div >

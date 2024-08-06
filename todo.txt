@@ -1,14 +1,6 @@
-projects:
-    - Minishell
-    - Libft
-    - Fractol
-    - Cub3d
-    - Push_swap 
-
-Cursor trail
-
-Work with me Button
-
-PLug in form<F12>
-
-publish
+- Correct Spelling mistakes DONE
+- Secure the form
+- Web Icon DONE
+- Alert when email sent
+- Clear up projects on github
+- Link to LinkedIn maybe CV ?
