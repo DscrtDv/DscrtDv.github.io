@@ -1,8 +1,8 @@
 {
     "name": "dd_portfolio",
     "private": true,
-    "version": "0.0.0",
-    "homepage": "https://DscrtDv.github.io/website/",
+    "version": "1.0.0",
+    "homepage": "https://dscrtdv.com",
     "type": "module",
     "scripts": {
         "dev": "vite",
