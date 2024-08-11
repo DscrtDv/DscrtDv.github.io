@@ -20,6 +20,7 @@
         "react-dom": "^18.3.1",
         "react-fps": "^1.0.6",
         "react-google-recaptcha": "^3.1.0",
+        "react-loading-skeleton": "^3.4.0",
         "tsparticles": "^3.5.0"
     },
     "devDependencies": {

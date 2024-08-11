@@ -1,6 +1,5 @@
 import React from 'react';
 import { ReactTyped } from 'react-typed';
-import Particle from './Particles';
 
 function Intro() {
     return (

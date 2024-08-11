@@ -1,12 +1,12 @@
 import './App.css'
 import React, { useEffect, useState } from 'react'
-import Intro from './components/intro'
-import Portfolio from './components/portfolio'
-import Footer from './components/footer'
-import Timeline from './components/timeline'
-import Contact from './components/contact'
+import Intro from './components/Intro'
+import Portfolio from './components/Portfolio'
+import Footer from './components/Footer'
+import Timeline from './components/Timeline'
+import Contact from './components/Contact'
 import Particle from './components/Particles'
-import { FpsView } from 'react-fps'
+//import { FpsView } from 'react-fps'
 
 function App() {
     const [theme, setTheme] = useState(null);
@@ -78,11 +78,10 @@ function App() {
             >
                 {theme === 'dark' ? sun : moon}
             </button >
-            <div className="bg-white h-full bg-gradient-to-br dark:bg-black text-stone-900 dark:text-stone-300 min-h-screen font-inter px-8">
+            <div className="bg-white h-full dark:bg-black text-stone-900 dark:text-stone-300 min-h-screen font-inter px-8">
                 <div className="max-w-7xl mx-auto h-full">
 
                     <Intro />
-
                     <Portfolio />
                     <Timeline />
                     <Contact theme={theme} />

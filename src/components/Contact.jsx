@@ -2,7 +2,7 @@ import React, { useRef, createRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import ReCAPTCHA from "react-google-recaptcha";
 import Alert from "./Alert";
-import Title from "./title";
+import Title from "./Title";
 
 export const Contact = ({ theme }) => {
 
@@ -58,7 +58,7 @@ export const Contact = ({ theme }) => {
                     .then(
                         (response) => {
                             if (response.status === 200) {
-                                setAlertMessage({ severity: 'success', title: 'Success', message: 'Sent successfully' });
+                                setAlertMessage({ severity: 'success', title: 'Success', message: 'Message sent' });
                                 setShowAlert(true);
                                 setFormValue({
                                     user_name: "",

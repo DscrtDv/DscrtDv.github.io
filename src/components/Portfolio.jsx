@@ -1,6 +1,6 @@
 import React from 'react';
 import p_data from '../data/portfolio_data';
-import P_item from './p_item'
+import P_item from './PortfolioItem'
 
 function Portfolio() {
     return (

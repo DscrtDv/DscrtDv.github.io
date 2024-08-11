@@ -1,7 +1,7 @@
 export default [
     {
         year: '2023',
-        title: 'Lead Developper',
+        title: 'Lead Developer',
         place: 'Flusk',
         duration: '1 Year',
         details: `In parallel with my studies, I joined Flusk as a Lead Developer. The company aimed at creating a SaaS allowing Bubble.io users to perform automatic penetration testing on their web-app. 
